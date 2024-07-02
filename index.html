@@ -4,29 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Simples</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Bem-vindo à Minha Página</h1>
+        <nav>
+            <h1>Bem-vindo à Minha Página</h1>
+        </nav>
     </header>
-
     <main>
         <section>
-            <h2>Formulário de Saudação</h2>
-            <form id="greetingForm">
+            <h2>Formulário de Cadastro</h2>
+            <form id="registration-form">
                 <label for="name">Nome:</label>
                 <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
                 <button type="submit">Enviar</button>
             </form>
-            <p id="greetingMessage"></p>
+            <p id="greeting-message"></p>
         </section>
     </main>
-
     <footer>
-        <p>&copy; 2024 Minha Página Simples</p>
+        <p>&copy; 2024 Minha Página Interativa</p>
     </footer>
-
     <script src="scripts.js"></script>
 </body>
 </html>
